@@ -1,0 +1,22 @@
+$roboto-font-path: "~materialize-css/dist/fonts/roboto/" !default;
+
+//
+// MaterializeCSSカスタマイズ
+//
+//========================
+// 色
+//========================
+@import "~materialize-css/sass/components/color";
+// プライマリーカラー
+$primary-color: color("red", "darken-3");
+// セカンダリーカラー
+$secondary-color: color("red", "lighten-1");
+
+//========================
+// ボタンスタイル
+//========================
+// 高さ
+$button-height: 100px;
+
+// MaterializeCSSのコンパイル対象SASSファイル
+@import "~materialize-css/sass/materialize.scss";

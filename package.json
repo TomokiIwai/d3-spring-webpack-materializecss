@@ -1,0 +1,27 @@
+{
+  "name": "d3",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "node task/build-watch.js",
+    "build-release": "node task/build.js"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.7",
+    "expose-loader": "^0.7.3",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "lodash": "^4.17.4",
+    "materialize-css": "^0.100.2",
+    "node-sass": "^4.5.3",
+    "optimize-css-assets-webpack-plugin": "^3.1.1",
+    "sass-loader": "^6.0.6",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5"
+  },
+  "engines": {
+    "node": ">= 6.9.5",
+    "npm": ">= 3.10.10"
+  }
+}
